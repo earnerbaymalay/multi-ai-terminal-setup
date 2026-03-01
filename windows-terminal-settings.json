@@ -1,0 +1,631 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+            {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "AI: Claude"
+            },
+            "id": "User.newTab.6F3A1B4C",
+            "keys": "ctrl+alt+c"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "AI: Kimi"
+            },
+            "id": "User.newTab.7E4B2C5D",
+            "keys": "ctrl+alt+k"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "AI: Gemini"
+            },
+            "id": "User.newTab.8F5C3D6E",
+            "keys": "ctrl+alt+g"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "AI: Qwen"
+            },
+            "id": "User.newTab.9A6D4E7F",
+            "keys": "ctrl+alt+q"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "AI: Codex"
+            },
+            "id": "User.newTab.0B7E5F8A",
+            "keys": "ctrl+alt+x"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "AI: Local (Ollama)"
+            },
+            "id": "User.newTab.1C8F6A9B",
+            "keys": "ctrl+alt+o"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "AI: Kilo Code"
+            },
+            "id": "User.newTab.KiloCode",
+            "keys": "ctrl+alt+l"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "profile": "AI Compare"
+            },
+            "id": "User.newTab.2D9A7B0C",
+            "keys": "ctrl+alt+a"
+        },
+        {
+            "command": {
+                "action": "newWindow"
+            },
+            "id": "User.newWindow",
+            "keys": "ctrl+alt+n"
+        },
+        {
+            "command": {
+                "action": "closePane"
+            },
+            "id": "User.closePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.5E52E63A",
+            "keys": "alt+left"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.moveFocus.5E52E63B",
+            "keys": "alt+right"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "id": "User.moveFocus.5E52E63C",
+            "keys": "alt+up"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "id": "User.moveFocus.5E52E63D",
+            "keys": "alt+down"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "id": "User.resizePane.3A4B5C6D",
+            "keys": "alt+shift+left"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "id": "User.resizePane.3A4B5C6E",
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": {
+                "action": "toggleFullscreen"
+            },
+            "id": "User.toggleFullscreen",
+            "keys": "f11"
+        },
+        {
+            "command": {
+                "action": "toggleFocusMode"
+            },
+            "id": "User.toggleFocusMode",
+            "keys": "ctrl+alt+f"
+        },
+        {
+            "command": {
+                "action": "toggleTransparency"
+            },
+            "id": "User.toggleTransparency",
+            "keys": "ctrl+alt+t"
+        },
+        {
+            "command": {
+                "action": "setTabColor"
+            },
+            "id": "User.setTabColor",
+            "keys": "ctrl+alt+shift+c"
+        },
+        {
+            "command": {
+                "action": "commandPalette"
+            },
+            "id": "User.commandPalette",
+            "keys": "ctrl+shift+p"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "colorScheme": "AI Command Hub",
+            "cursorShape": "bar",
+            "cursorColor": "#00FFFF",
+            "font": {
+                "face": "Cascadia Code",
+                "size": 11,
+                "weight": "normal"
+            },
+            "opacity": 85,
+            "useAcrylic": true,
+            "acrylicOpacity": 0.7,
+            "backgroundImage": null,
+            "backgroundImageOpacity": 0.3,
+            "backgroundImageStretchMode": "uniformToFill",
+            "backgroundImageAlignment": "center",
+            "padding": "8",
+            "snapOnInput": true,
+            "historySize": 9001,
+            "closeOnExit": "graceful",
+            "antialiasingMode": "cleartype"
+        },
+        "list": [
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore",
+                "colorScheme": "AI Command Hub",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.2
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt",
+                "colorScheme": "AI Command Hub"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-22.04\\home\\pat21",
+                "colorScheme": "AI Command Hub",
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png"
+            },
+            {
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "name": "AI: Claude",
+                "source": "Windows.Terminal.PowershellCore",
+                "commandline": "powershell.exe -NoExit -Command \"Set-Location C:\\Users\\pat21\\AI_Central; Write-Host 'Initializing Claude AI...' -ForegroundColor Yellow; claude --help | Out-Null; function global:ai-welcome { Write-Host '' -ForegroundColor Cyan; Write-Host '╔════════════════════════════════════════════════════════════════╗' -ForegroundColor Magenta; Write-Host '║              🤖 CLAUDE AI - ANTHROPIC ASSISTANT                ║' -ForegroundColor Magenta; Write-Host '╠════════════════════════════════════════════════════════════════╣' -ForegroundColor Magenta; Write-Host '║  Commands: claude, claude -c \"<prompt>\", claude config        ║' -ForegroundColor Cyan; Write-Host '║  Shortcut: Ctrl+Alt+C                                          ║' -ForegroundColor DarkGray; Write-Host '╚════════════════════════════════════════════════════════════════╝' -ForegroundColor Magenta; Write-Host '' }; ai-welcome; function global:c { param([string]$msg); if ($msg) { claude -c $msg } else { claude } }\"",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "colorScheme": "AI Claude",
+                "icon": "🟡",
+                "tabTitle": "Claude AI",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.25,
+                "opacity": 90,
+                "cursorColor": "#FFD700"
+            },
+            {
+                "guid": "{a7f93a4b-3c2d-5e8f-9b1a-6d4e8c2f5b9a}",
+                "hidden": false,
+                "name": "AI: Kimi",
+                "source": "Windows.Terminal.PowershellCore",
+                "commandline": "powershell.exe -NoExit -Command \"Set-Location C:\\Users\\pat21\\AI_Central; Write-Host 'Initializing Kimi AI...' -ForegroundColor Blue; kimi --help | Out-Null; function global:ai-welcome { Write-Host '' -ForegroundColor Cyan; Write-Host '╔════════════════════════════════════════════════════════════════╗' -ForegroundColor Blue; Write-Host '║              🌙 KIMI AI - MOONSHOT ASSISTANT                   ║' -ForegroundColor Blue; Write-Host '╠════════════════════════════════════════════════════════════════╣' -ForegroundColor Blue; Write-Host '║  Commands: kimi, kimi ask \"<prompt>\", kimi config              ║' -ForegroundColor Cyan; Write-Host '║  Shortcut: Ctrl+Alt+K                                          ║' -ForegroundColor DarkGray; Write-Host '╚════════════════════════════════════════════════════════════════╝' -ForegroundColor Blue; Write-Host '' }; ai-welcome; function global:k { param([string]$msg); if ($msg) { kimi ask $msg } else { kimi } }\"",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "colorScheme": "AI Kimi",
+                "icon": "🌙",
+                "tabTitle": "Kimi AI",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.25,
+                "opacity": 90,
+                "cursorColor": "#4169E1"
+            },
+            {
+                "guid": "{f8b5c9d2-7e4a-6f1c-8d3b-5a9e7b4c6f2d}",
+                "hidden": false,
+                "name": "AI: Gemini",
+                "source": "Windows.Terminal.PowershellCore",
+                "commandline": "powershell.exe -NoExit -Command \"Set-Location C:\\Users\\pat21\\AI_Central; Write-Host 'Initializing Gemini AI...' -ForegroundColor Green; gemini --help | Out-Null; function global:ai-welcome { Write-Host '' -ForegroundColor Cyan; Write-Host '╔════════════════════════════════════════════════════════════════╗' -ForegroundColor Green; Write-Host '║              ♊ GEMINI AI - GOOGLE ASSISTANT                   ║' -ForegroundColor Green; Write-Host '╠════════════════════════════════════════════════════════════════╣' -ForegroundColor Green; Write-Host '║  Commands: gemini, gemini ask \"<prompt>\", gemini config        ║' -ForegroundColor Cyan; Write-Host '║  Shortcut: Ctrl+Alt+G                                          ║' -ForegroundColor DarkGray; Write-Host '╚════════════════════════════════════════════════════════════════╝' -ForegroundColor Green; Write-Host '' }; ai-welcome; function global:g { param([string]$msg); if ($msg) { gemini ask $msg } else { gemini } }\"",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "colorScheme": "AI Gemini",
+                "icon": "♊",
+                "tabTitle": "Gemini AI",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.25,
+                "opacity": 90,
+                "cursorColor": "#00FF7F"
+            },
+            {
+                "guid": "{e3d8a7f4-9b2c-5e6a-1d8f-4c7b3a5e9d6c}",
+                "hidden": false,
+                "name": "AI: Qwen",
+                "source": "Windows.Terminal.PowershellCore",
+                "commandline": "powershell.exe -NoExit -Command \"Set-Location C:\\Users\\pat21\\AI_Central; Write-Host 'Initializing Qwen AI...' -ForegroundColor Magenta; qwen --help | Out-Null; function global:ai-welcome { Write-Host '' -ForegroundColor Cyan; Write-Host '╔════════════════════════════════════════════════════════════════╗' -ForegroundColor Magenta; Write-Host '║              🌸 QWEN AI - ALIBABA ASSISTANT                    ║' -ForegroundColor Magenta; Write-Host '╠════════════════════════════════════════════════════════════════╣' -ForegroundColor Magenta; Write-Host '║  Commands: qwen, qwen ask \"<prompt>\", qwen config              ║' -ForegroundColor Cyan; Write-Host '║  Shortcut: Ctrl+Alt+Q                                          ║' -ForegroundColor DarkGray; Write-Host '╚════════════════════════════════════════════════════════════════╝' -ForegroundColor Magenta; Write-Host '' }; ai-welcome; function global:q { param([string]$msg); if ($msg) { qwen ask $msg } else { qwen } }\"",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "colorScheme": "AI Qwen",
+                "icon": "🌸",
+                "tabTitle": "Qwen AI",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.25,
+                "opacity": 90,
+                "cursorColor": "#FF1493"
+            },
+            {
+                "guid": "{d5f7b2e9-8c4a-3d6f-2b9e-7a5c8f3e1b4a}",
+                "hidden": false,
+                "name": "AI: Codex",
+                "source": "Windows.Terminal.PowershellCore",
+                "commandline": "powershell.exe -NoExit -Command \"Set-Location C:\\Users\\pat21\\AI_Central; Write-Host 'Initializing Codex AI...' -ForegroundColor Cyan; codex --help | Out-Null; function global:ai-welcome { Write-Host '' -ForegroundColor Cyan; Write-Host '╔════════════════════════════════════════════════════════════════╗' -ForegroundColor Cyan; Write-Host '║              ⌨️  CODEX AI - OPENAI CODER                       ║' -ForegroundColor Cyan; Write-Host '╠════════════════════════════════════════════════════════════════╣' -ForegroundColor Cyan; Write-Host '║  Commands: codex, codex -p \"<prompt>\", codex --sandbox        ║' -ForegroundColor White; Write-Host '║  Shortcut: Ctrl+Alt+X                                          ║' -ForegroundColor DarkGray; Write-Host '╚════════════════════════════════════════════════════════════════╝' -ForegroundColor Cyan; Write-Host '' }; ai-welcome; function global:cx { param([string]$msg); if ($msg) { codex -p $msg } else { codex } }\"",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "colorScheme": "AI Codex",
+                "icon": "⌨️",
+                "tabTitle": "Codex AI",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.25,
+                "opacity": 90,
+                "cursorColor": "#00CED1"
+            },
+            {
+                "guid": "{e1f2a3b4-c5d6-7e8f-9a0b-1c2d3e4f5a6b}",
+                "hidden": false,
+                "name": "AI: Kilo Code",
+                "source": "Windows.Terminal.PowershellCore",
+                "commandline": "powershell.exe -NoExit -Command \"Set-Location C:\\Users\\pat21\\AI_Central; function global:ai-welcome { Write-Host ''; Write-Host '╔════════════════════════════════════════════════════════════════╗' -ForegroundColor Magenta; Write-Host '║              ▲ KILO CODE - AI POWERED EDITOR                   ║' -ForegroundColor Magenta; Write-Host '╠════════════════════════════════════════════════════════════════╣' -ForegroundColor Magenta; Write-Host '║  Commands: kilo, kilo <file>, kilo --new-task \\\"<prompt>\\\"      ║' -ForegroundColor Cyan; Write-Host '║  Shortcut:  Ctrl+Alt+L                                         ║' -ForegroundColor DarkGray; Write-Host '╚════════════════════════════════════════════════════════════════╝' -ForegroundColor Magenta; Write-Host '' }; ai-welcome; function global:kc { param([string]$msg); if ($msg) { kilo $msg } else { kilo } }\"",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "colorScheme": "AI Kilo",
+                "icon": "▲",
+                "tabTitle": "Kilo Code",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.25,
+                "opacity": 90,
+                "cursorColor": "#F472B6"
+            },
+            {
+                "guid": "{b9e3c5a7-4f8d-6b2e-9c1a-5d7f4e8b3c6a}",
+                "hidden": false,
+                "name": "AI: Local (Ollama)",
+                "source": "Windows.Terminal.PowershellCore",
+                "commandline": "powershell.exe -NoExit -Command \"Set-Location C:\\Users\\pat21\\AI_Central; Write-Host 'Initializing Ollama Local AI...' -ForegroundColor Gray; ollama --help | Out-Null; function global:ai-welcome { Write-Host '' -ForegroundColor Cyan; Write-Host '╔════════════════════════════════════════════════════════════════╗' -ForegroundColor DarkGray; Write-Host '║              🦙 OLLAMA - LOCAL AI MODELS                       ║' -ForegroundColor DarkGray; Write-Host '╠════════════════════════════════════════════════════════════════╣' -ForegroundColor DarkGray; Write-Host '║  Commands: ollama, ollama run <model>, ollama list             ║' -ForegroundColor White; Write-Host '║  Shortcut: Ctrl+Alt+O                                          ║' -ForegroundColor DarkGray; Write-Host '╚════════════════════════════════════════════════════════════════╝' -ForegroundColor DarkGray; Write-Host '' }; ai-welcome; function global:o { param([string]$model); if ($model) { ollama run $model } else { ollama list } }\"",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "colorScheme": "AI Ollama",
+                "icon": "🦙",
+                "tabTitle": "Ollama Local",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.3,
+                "opacity": 95,
+                "cursorColor": "#808080"
+            },
+            {
+                "guid": "{c4a8f7e2-9d5b-3a6c-8e4f-2b7d5a9c1e3f}",
+                "hidden": false,
+                "name": "AI Compare",
+                "source": "Windows.Terminal.PowershellCore",
+                "commandline": "powershell.exe -NoExit -Command \"Set-Location C:\\Users\\pat21\\AI_Central; function global:ai-welcome { Write-Host '' -ForegroundColor Cyan; Write-Host '╔════════════════════════════════════════════════════════════════╗' -ForegroundColor Yellow; Write-Host '║              🔬 AI COMPARE MODE                                ║' -ForegroundColor Yellow; Write-Host '╠════════════════════════════════════════════════════════════════╣' -ForegroundColor Yellow; Write-Host '║  Split-pane view for comparing AI responses                    ║' -ForegroundColor White; Write-Host '║  Use Alt+Arrow keys to navigate between panes                  ║' -ForegroundColor Gray; Write-Host '║  Use Alt+Shift+Arrow to resize panes                           ║' -ForegroundColor Gray; Write-Host '╚════════════════════════════════════════════════════════════════╝' -ForegroundColor Yellow; Write-Host '' }; ai-welcome; Write-Host 'Ready for AI comparison mode!' -ForegroundColor Green\"",
+                "startingDirectory": "C:\\Users\\pat21\\AI_Central",
+                "colorScheme": "AI Compare",
+                "icon": "🔬",
+                "tabTitle": "AI Compare",
+                "backgroundImage": "C:\\Users\\pat21\\AI_Central\\assets\\ai-hub-bg.png",
+                "backgroundImageOpacity": 0.2,
+                "opacity": 85,
+                "cursorColor": "#FFFF00"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "AI Command Hub",
+            "background": "#0D0D15",
+            "foreground": "#00FFFF",
+            "black": "#1A1A2E",
+            "blue": "#00BFFF",
+            "brightBlack": "#4A4A6A",
+            "brightBlue": "#1E90FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF7F",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF3366",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cyan": "#00CED1",
+            "green": "#00FA9A",
+            "purple": "#FF1493",
+            "red": "#FF0040",
+            "white": "#E0E0E0",
+            "yellow": "#FFD700",
+            "selectionBackground": "#1E1E3F",
+            "cursorColor": "#00FFFF"
+        },
+        {
+            "name": "AI Claude",
+            "background": "#0D0D15",
+            "foreground": "#FFD700",
+            "black": "#1A1A2E",
+            "blue": "#FFB347",
+            "brightBlack": "#4A4A6A",
+            "brightBlue": "#FFA500",
+            "brightCyan": "#FFFF00",
+            "brightGreen": "#FFD700",
+            "brightPurple": "#FF6347",
+            "brightRed": "#FF4500",
+            "brightWhite": "#FFFACD",
+            "brightYellow": "#FFFFE0",
+            "cyan": "#F0E68C",
+            "green": "#DAA520",
+            "purple": "#FF8C00",
+            "red": "#FF6347",
+            "white": "#F5DEB3",
+            "yellow": "#FFD700",
+            "selectionBackground": "#2D2D1F",
+            "cursorColor": "#FFD700"
+        },
+        {
+            "name": "AI Kimi",
+            "background": "#0A0A1A",
+            "foreground": "#87CEEB",
+            "black": "#1A1A2E",
+            "blue": "#4169E1",
+            "brightBlack": "#4A4A6A",
+            "brightBlue": "#6495ED",
+            "brightCyan": "#87CEEB",
+            "brightGreen": "#98FB98",
+            "brightPurple": "#9370DB",
+            "brightRed": "#FFB6C1",
+            "brightWhite": "#E6E6FA",
+            "brightYellow": "#F0E68C",
+            "cyan": "#5F9EA0",
+            "green": "#20B2AA",
+            "purple": "#9370DB",
+            "red": "#DB7093",
+            "white": "#D3D3D3",
+            "yellow": "#B0C4DE",
+            "selectionBackground": "#1E1E3F",
+            "cursorColor": "#4169E1"
+        },
+        {
+            "name": "AI Gemini",
+            "background": "#0D1F0D",
+            "foreground": "#00FF7F",
+            "black": "#1A2E1A",
+            "blue": "#00CED1",
+            "brightBlack": "#4A6A4A",
+            "brightBlue": "#00FFFF",
+            "brightCyan": "#7FFFD4",
+            "brightGreen": "#00FF7F",
+            "brightPurple": "#DA70D6",
+            "brightRed": "#FF69B4",
+            "brightWhite": "#F0FFF0",
+            "brightYellow": "#ADFF2F",
+            "cyan": "#20B2AA",
+            "green": "#32CD32",
+            "purple": "#BA55D3",
+            "red": "#FF1493",
+            "white": "#E0FFE0",
+            "yellow": "#9ACD32",
+            "selectionBackground": "#1E3F1E",
+            "cursorColor": "#00FF7F"
+        },
+        {
+            "name": "AI Qwen",
+            "background": "#1A0A1A",
+            "foreground": "#FF69B4",
+            "black": "#2E1A2E",
+            "blue": "#FF1493",
+            "brightBlack": "#6A4A6A",
+            "brightBlue": "#FF69B4",
+            "brightCyan": "#FF1493",
+            "brightGreen": "#FF00FF",
+            "brightPurple": "#DA70D6",
+            "brightRed": "#FF3366",
+            "brightWhite": "#FFF0F5",
+            "brightYellow": "#FFB6C1",
+            "cyan": "#C71585",
+            "green": "#DB7093",
+            "purple": "#FF1493",
+            "red": "#FF0040",
+            "white": "#FFE4E1",
+            "yellow": "#FFA07A",
+            "selectionBackground": "#3F1E3F",
+            "cursorColor": "#FF1493"
+        },
+        {
+            "name": "AI Codex",
+            "background": "#0A1A1A",
+            "foreground": "#00FFFF",
+            "black": "#0D1F2D",
+            "blue": "#00CED1",
+            "brightBlack": "#4A5A6A",
+            "brightBlue": "#00FFFF",
+            "brightCyan": "#7FFFD4",
+            "brightGreen": "#00FA9A",
+            "brightPurple": "#E0FFFF",
+            "brightRed": "#FF6B6B",
+            "brightWhite": "#F0FFFF",
+            "brightYellow": "#00CED1",
+            "cyan": "#20B2AA",
+            "green": "#008B8B",
+            "purple": "#48D1CC",
+            "red": "#5F9EA0",
+            "white": "#E0FFFF",
+            "yellow": "#00BFFF",
+            "selectionBackground": "#1E3F4F",
+            "cursorColor": "#00CED1"
+        },
+        {
+            "name": "AI Ollama",
+            "background": "#0F0F0F",
+            "foreground": "#C0C0C0",
+            "black": "#1A1A1A",
+            "blue": "#808080",
+            "brightBlack": "#404040",
+            "brightBlue": "#A9A9A9",
+            "brightCyan": "#D3D3D3",
+            "brightGreen": "#B8B8B8",
+            "brightPurple": "#D8BFD8",
+            "brightRed": "#BC8F8F",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F5F5F5",
+            "cyan": "#A9A9A9",
+            "green": "#696969",
+            "purple": "#D3D3D3",
+            "red": "#8B4513",
+            "white": "#DCDCDC",
+            "yellow": "#C0C0C0",
+            "selectionBackground": "#2F2F2F",
+            "cursorColor": "#808080"
+        },
+        {
+            "name": "AI Kilo",
+            "background": "#0D0A14",
+            "foreground": "#F472B6",
+            "black": "#1A1025",
+            "blue": "#C084FC",
+            "brightBlack": "#4A3A5A",
+            "brightBlue": "#D8B4FE",
+            "brightCyan": "#F9A8D4",
+            "brightGreen": "#86EFAC",
+            "brightPurple": "#E879F9",
+            "brightRed": "#FCA5A5",
+            "brightWhite": "#FDF4FF",
+            "brightYellow": "#FDE68A",
+            "cyan": "#EC4899",
+            "green": "#A78BFA",
+            "purple": "#F472B6",
+            "red": "#FB7185",
+            "white": "#F5D0FE",
+            "yellow": "#FBCFE8",
+            "selectionBackground": "#2D1B3D",
+            "cursorColor": "#F472B6"
+        },
+        {
+            "name": "AI Compare",
+            "background": "#0F0F1A",
+            "foreground": "#FFFF00",
+            "black": "#1A1A2E",
+            "blue": "#00BFFF",
+            "brightBlack": "#4A4A6A",
+            "brightBlue": "#1E90FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF3366",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cyan": "#00CED1",
+            "green": "#00FF7F",
+            "purple": "#FF1493",
+            "red": "#FF0040",
+            "white": "#E0E0E0",
+            "yellow": "#FFD700",
+            "selectionBackground": "#2E2E4E",
+            "cursorColor": "#FFFF00"
+        }
+    ],
+    "themes": [
+        {
+            "name": "AI Command Hub Dark",
+            "tab": {
+                "background": "#0D0D15FF",
+                "iconStyle": "default",
+                "showCloseButton": "always",
+                "unfocusedBackground": "#0A0A10FF"
+            },
+            "tabRow": {
+                "background": "#0D0D15FF",
+                "unfocusedBackground": "#08080CFF"
+            },
+            "window": {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        }
+    ],
+    "theme": "AI Command Hub Dark",
+    "tabWidthMode": "equal",
+    "confirmCloseAllTabs": true,
+    "startOnUserLogin": false,
+    "initialPosition": "",
+    "initialCols": 120,
+    "initialRows": 30,
+    "showTerminalTitleInTitlebar": true,
+    "showTabsInTitlebar": true,
+    "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
+    "compatibility.reloadEnvironmentVariables": true,
+    "alwaysShowNotificationIcon": false,
+    "minimizeToNotificationArea": false,
+    "centerOnLaunch": true,
+    "firstWindowPreference": "defaultProfile",
+    "launchMode": "default",
+    "focusFollowMouse": false,
+    "enableColorSelection": false,
+    "alwaysOnTop": false,
+    "trimBlockSelection": true,
+    "inputServiceWarning": true,
+    "searchWebDefaultQueryUrl": "https://www.bing.com/search?q=%22%s%22",
+    "snapToGridOnResize": true
+}
