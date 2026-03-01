@@ -7,6 +7,7 @@ This guide covers the setup of all AI CLI tools installed on this Windows system
 - **Gemini** (Google)
 - **Qwen** (Alibaba)
 - **Codex** (OpenAI)
+- **Kilo Code** (AI-powered code editor)
 - **Ollama** (Local LLMs)
 
 ---
@@ -94,7 +95,26 @@ codex "Hello, verify my setup"
 
 ---
 
-### 6. Ollama (Local)
+### 6. Kilo Code
+**Authentication Method**: Built-in (configured on first launch)
+
+**Launch**:
+```powershell
+kilo
+```
+
+**Windows Terminal shortcut**: `Ctrl+Alt+L` → opens AI: Kilo Code profile
+
+**Verify Setup**:
+```powershell
+kilo --version
+```
+
+**Config location**: `C:\Users\pat21\.kilo\`
+
+---
+
+### 7. Ollama (Local)
 **Authentication Method**: None required (local)
 
 **Verify Setup**:
@@ -190,6 +210,9 @@ qwen
 # Codex
 codex
 
+# Kilo Code
+kilo
+
 # Ollama (interactive)
 ollama run qwen2.5-coder
 ```
@@ -201,6 +224,7 @@ kimi /help
 gemini --help
 qwen --help
 codex --help
+kilo --help
 ollama --help
 ```
 
@@ -259,6 +283,7 @@ gemini login
 | Gemini | `C:\Users\pat21\.gemini\` |
 | Qwen | `C:\Users\pat21\.qwen\` |
 | Codex | `C:\Users\pat21\.codex\` |
+| Kilo Code | `C:\Users\pat21\.kilo\` |
 | Ollama | `C:\Users\pat21\.ollama\` |
 
 ---
